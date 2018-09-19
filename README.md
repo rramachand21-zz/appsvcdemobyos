@@ -7,8 +7,9 @@ The home page refers to some images, css and js files that are in an azure blob 
 <b>Steps to deploy to Azure App Service:</b>
 
 1. Create an Azure Blob Storage or Azure Files share - https://docs.microsoft.com/en-us/azure/storage/
-2. Create an Azure App Service on Linux or Web App for Containers - https://docs.microsoft.com/en-us/azure/app-service/containers/ 
-3. Link the Azure Blob storage container or Azure Files share with the Azure App Service - the mount path to use is /home/site/wwwroot/wwwroot
+2. Upload the contents of this <a href="https://github.com/rramachand21/appsvcdemobyos/blob/master/wwwroot_upload_to_storage.zip">folder</a> to your azure storage. 
+3. Create an Azure App Service on Linux or Web App for Containers - https://docs.microsoft.com/en-us/azure/app-service/containers/ 
+4. Link the Azure Blob storage container or Azure Files share with the Azure App Service - the mount path to use is /home/site/wwwroot/wwwroot
 
 <b>Sample Az CLI command:</b>
 <br/>
@@ -16,7 +17,7 @@ The home page refers to some images, css and js files that are in an azure blob 
 az webapp config storage-account add -g YourResourceGroup -n YourAppServiceName --custom-id YourCustomId --storage-type AzureBlob --account-name YourStorageAccountName --share-name YourStorageContainerOrShareName --access-key <youraccesskey> --mount-path /home/site/wwwroot/wwwroot
   </code>
 
-4. Deploy this github repo to your Azure App Service - https://docs.microsoft.com/en-us/azure/app-service/app-service-continuous-deployment 
+5. Deploy this github repo to your Azure App Service - https://docs.microsoft.com/en-us/azure/app-service/app-service-continuous-deployment 
 
 You can now browse to your web application hosted on Azure App Service.
 
