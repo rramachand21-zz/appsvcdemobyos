@@ -4,13 +4,13 @@ This dotnetcore web application is a sample application that shows how you can u
 
 The home page refers to some images, css and js files that are in an azure blob storage and Azure app services can be configured to mount the blob storage to have those contents readily available to the web application.
 
-#Steps to deploy to Azure App Service:
+<b>Steps to deploy to Azure App Service:</b>
 
 1. Create an Azure Blob Storage or Azure Files share - https://docs.microsoft.com/en-us/azure/storage/
 2. Create an Azure App Service on Linux or Web App for Containers - https://docs.microsoft.com/en-us/azure/app-service/containers/ 
 3. Link the Azure Blob storage container or Azure Files share with the Azure App Service - the mount path to use is /home/site/wwwroot/wwwroot
 
--Sample Az CLI command:
+<b>Sample Az CLI command:</b>
 <br/>
 <code>
 az webapp config storage-account add -g YourResourceGroup -n YourAppServiceName --custom-id YourCustomId --storage-type AzureBlob --account-name YourStorageAccountName --share-name YourStorageContainerOrShareName --access-key <youraccesskey> --mount-path /home/site/wwwroot/wwwroot
