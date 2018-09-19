@@ -1,0 +1,11 @@
+c:\users\ranjithr\source\repos\AppSvcBYOSDemoSite\AppSvcBYOSDemoSite\bin\Debug\netcoreapp2.0\AppSvcBYOSDemoSite.deps.json
+c:\users\ranjithr\source\repos\AppSvcBYOSDemoSite\AppSvcBYOSDemoSite\bin\Debug\netcoreapp2.0\AppSvcBYOSDemoSite.runtimeconfig.json
+c:\users\ranjithr\source\repos\AppSvcBYOSDemoSite\AppSvcBYOSDemoSite\bin\Debug\netcoreapp2.0\AppSvcBYOSDemoSite.runtimeconfig.dev.json
+c:\users\ranjithr\source\repos\AppSvcBYOSDemoSite\AppSvcBYOSDemoSite\bin\Debug\netcoreapp2.0\AppSvcBYOSDemoSite.dll
+c:\users\ranjithr\source\repos\AppSvcBYOSDemoSite\AppSvcBYOSDemoSite\bin\Debug\netcoreapp2.0\AppSvcBYOSDemoSite.pdb
+c:\users\ranjithr\source\repos\AppSvcBYOSDemoSite\AppSvcBYOSDemoSite\obj\Debug\netcoreapp2.0\AppSvcBYOSDemoSite.csprojAssemblyReference.cache
+c:\users\ranjithr\source\repos\AppSvcBYOSDemoSite\AppSvcBYOSDemoSite\obj\Debug\netcoreapp2.0\AppSvcBYOSDemoSite.csproj.CoreCompileInputs.cache
+c:\users\ranjithr\source\repos\AppSvcBYOSDemoSite\AppSvcBYOSDemoSite\obj\Debug\netcoreapp2.0\AppSvcBYOSDemoSite.AssemblyInfoInputs.cache
+c:\users\ranjithr\source\repos\AppSvcBYOSDemoSite\AppSvcBYOSDemoSite\obj\Debug\netcoreapp2.0\AppSvcBYOSDemoSite.AssemblyInfo.cs
+c:\users\ranjithr\source\repos\AppSvcBYOSDemoSite\AppSvcBYOSDemoSite\obj\Debug\netcoreapp2.0\AppSvcBYOSDemoSite.dll
+c:\users\ranjithr\source\repos\AppSvcBYOSDemoSite\AppSvcBYOSDemoSite\obj\Debug\netcoreapp2.0\AppSvcBYOSDemoSite.pdb
