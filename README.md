@@ -12,6 +12,7 @@ Steps to try this sample:
 3. Link the Azure Blob storage container or Azure Files share with the Azure App Service - the mount path to use is /home/site/wwwroot/wwwroot
 
 Sample Az CLI command:
+<br/>
 <code>
 az webapp config storage-account add -g YourResourceGroup -n YourAppServiceName --custom-id YourCustomId --storage-type AzureBlob --account-name YourStorageAccountName --share-name YourStorageContainerOrShareName --access-key <youraccesskey> --mount-path /home/site/wwwroot/wwwroot
   </code>
