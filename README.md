@@ -14,7 +14,7 @@ The home page refers to some images, css and js files that are in an azure blob 
 <b>Sample Az CLI command:</b>
 <br/>
 <code>
-az webapp config storage-account add -g YourResourceGroup -n YourAppServiceName --custom-id YourCustomId --storage-type AzureBlob --account-name YourStorageAccountName --share-name YourStorageContainerOrShareName --access-key <youraccesskey> --mount-path /home/site/wwwroot/wwwroot
+az webapp config storage-account add -g YourResourceGroup -n YourAppServiceName --custom-id YourCustomId --storage-type AzureBlob --account-name YourStorageAccountName --share-name YourStorageContainerOrShareName --access-key &lt;youraccesskey&gt; --mount-path /home/site/wwwroot/wwwroot
   </code>
 
 5. Deploy this github repo to your Azure App Service - https://docs.microsoft.com/en-us/azure/app-service/app-service-continuous-deployment 
